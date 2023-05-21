@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    text-align: center;
+    margin: auto;
+}
+
+.view {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 32px;
+}
